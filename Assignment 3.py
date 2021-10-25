@@ -1,6 +1,9 @@
-apple_quantity=int(input("how many many apples?"))
-orange_quantity=int(input("how many orange?"))
+apple_quantity=int(input("enter apple quantity:"))
+total_apple_quantity=int(float(apple_quantity))
+orange_quantity=int(input("enter orange quantity:"))
+total_orange_quantity=int(float(orange_quantity))
 apple=20
 orange=25
-apple_price= 20 * apple_quantity
-orange_price= 25 * orange_quantity
+apple_total= 20 * total_apple_quantity
+orange_total= 25 * total_orange_quantity
+total_payment=({apple_total} + {orange_total })
